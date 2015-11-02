@@ -1,0 +1,72 @@
+body,td,th {
+	color: #000;
+}
+body {
+	background-color: #FFF;
+}
+#container {
+	text-align: center;
+}
+/* Стили для игрового поля  */
+#game {
+	margin: 0 auto;
+	width: 315px;
+}
+.cell {
+	margin: 1px;
+	width: 100px;
+	height: 100px;
+	border: solid 1px black;
+	float: left;
+	background-color:#EEE;
+	background-repeat: no-repeat;
+	background-position: center center;
+	cursor: pointer;
+}
+/* Стили для архивных игр  */
+.game_history {
+	margin: 0 auto;
+	width: 96px;
+}
+.bg0 {background-image:url(../img/se.png)} /* Фон пустой клетки */
+.bg1 {background-image:url(../img/sx.png)} /* Фон крестика */
+.bg2 {background-image:url(../img/so.png)} /* Фон нолика */
+.scell {
+	margin: 0px;
+	width: 32px;
+	height: 32px;
+	float: left;
+}
+/*--------------------*/
+.cl {clear: both;}
+#msg {
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	margin: 5px;
+}
+p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+.history {
+	width: 96px;
+	border-collapse: collapse;
+	background-color:#EEE;
+	margin: 10px;
+	float: left;
+}
+.history td{
+	border: solid 1px #666;
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 9px;
+}
+#archive_block{display: none;}
+#arc_t {
+	width: 730px;
+	margin: 5px auto;
+	border: solid 1px #333;
+}
